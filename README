@@ -1,0 +1,13 @@
+The purpose of this code is to create a "Context Free Grammar" generator.
+The idea behind context free grammar is to create a set of rules for generating sentences.
+These sentences are very basic in principle, given a basic set of rules the following strings could be generated, for example:
+
+the cat bit the dog.
+the girl chased the boy.
+the cat chased the boy and the boy kissed the cat.
+the cat bit the dog and the dog kissed the girl and the dog chased the girl. 
+
+These sentences were generated from a few basic words (Dog, boy, cat, girl) as well as an idea of verbs vs. nouns.
+
+These two code files aim to provide the tools necessary to achieve context free grammar. my_rng provides random number generation and functions.
+cfg provides functions to generate context free grammar. cfg also has a main() to showcase and example of how it works.
